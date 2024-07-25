@@ -1,0 +1,16 @@
+.spotify-player-widget {
+    width: 300px; /* Adjust width if needed */
+    height: 400px; /* Adjust height if needed */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    text-align: center;
+  }
+  
+  .spotify-player-widget iframe {
+    width: 100%;
+    height: calc(100% - 40px); /* Subtract height of header */
+    border: none;
+  }
+  

@@ -1,0 +1,15 @@
+.google-slide-widget {
+    width: 600px; /* Reduced width */
+    height: 400px; /* Reduced height */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+  }
+  
+  .google-slide-widget iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
