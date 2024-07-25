@@ -1,0 +1,152 @@
+/* EmployeesDiscussion.css */
+
+.widget {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: space-between; /* Distribute space between items */
+  width: 100%;
+  gap: 20px; /* Space between components */
+}
+
+.google-form-container,
+.suggestions-container,
+.poll-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1; /* Flex grow to fill available space */
+  min-width: 280px; /* Minimum width for responsiveness */
+}
+
+.google-form-container {
+  flex: 1 1 100%; /* Full width for issue tracker */
+}
+
+.suggestions-container,
+.poll-container {
+  flex: 1 1 30%; /* 30% width for suggestions and poll */
+}
+
+.google-form-container h3,
+.suggestions-container h3,
+.poll-container h3 {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.suggestions-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.suggestions-container li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.suggestion-text {
+  font-size: 16px;
+  color: #333;
+  flex: 1;
+}
+
+.upvote-downvote {
+  display: flex;
+  align-items: center;
+}
+
+.upvote-downvote button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #007bff;
+  margin: 0 5px;
+}
+
+.upvote-downvote button:hover {
+  color: #0056b3;
+}
+
+.poll-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.poll-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.poll-options span {
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+}
+
+.poll-numbers {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.poll-numbers span {
+  flex: 1;
+  text-align: center;
+}
