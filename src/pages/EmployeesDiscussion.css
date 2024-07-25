@@ -150,3 +150,16 @@ button:hover {
   flex: 1;
   text-align: center;
 }
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .google-form-container,
+  .suggestions-container,
+  .poll-container {
+    flex: 1 1 100%; /* Full width for each section */
+  }
+}
