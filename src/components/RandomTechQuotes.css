@@ -1,0 +1,91 @@
+.random-tech-quotes {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote-cloud {
+    background: #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .recommendation {
+    margin-bottom: 20px;
+  }
+  
+  .watchlist {
+    margin-top: 20px;
+  }
+  
+  .watchlist input {
+    width: calc(100% - 150px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .watchlist button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .watchlist button:hover {
+    background-color: #0056b3;
+  }
+  
+  .watchlist ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .watchlist-item {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .watchlist-item .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .watchlist-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .icon-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-item .icon {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .icon-item span {
+    font-size: 16px;
+  }
+  

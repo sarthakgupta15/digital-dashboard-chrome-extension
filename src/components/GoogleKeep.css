@@ -1,0 +1,25 @@
+.google-keep-widget {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .google-keep-widget a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffab00;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .google-keep-widget a:hover {
+    background-color: #d28800;
+  }
+  

@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
@@ -6,6 +7,9 @@ import RelaxTab from './pages/RelaxTab';
 import GenericLeaderboard from './pages/GenericLeaderboard';
 import GoogleWidgets from './pages/GoogleWidgets';
 import ChatGPT from './pages/ChatGPT';
+import PomodoroTimer from './components/PomodoroTimer';
+import TasksToDo from './components/TasksToDo';
+import TodayILearned from './components/TodayILearned';
 
 const App = () => {
   return (
@@ -32,7 +36,13 @@ const App = () => {
             <Route path="/generic-leaderboard" element={<GenericLeaderboard />} />
             <Route path="/google-widgets" element={<GoogleWidgets />} />
             <Route path="/chatgpt" element={<ChatGPT />} />
-            <Route path="/" element={<div>Welcome to the Digital Notice Board</div>} />
+            <Route path="/" element={
+              <div className="home-page">
+                <PomodoroTimer />
+                <TasksToDo />
+                <TodayILearned />
+              </div>
+            } />
           </Routes>
         </main>
       </div>

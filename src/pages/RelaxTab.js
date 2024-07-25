@@ -2,7 +2,7 @@ import React from 'react';
 import SpotifyPlayer from '../components/SpotifyPlayer';
 import BookQuote from '../components/BookQuote';
 import FitnessTracker from '../components/FitnessTracker';
-import './RelaxTab.css'; // Make sure to import the CSS
+import './RelaxTab.css'; // Ensure this is imported
 
 const RelaxTab = () => {
   return (

@@ -1,10 +1,13 @@
 import React from 'react';
+import './GoogleKeep.css'; // Import specific styles for GoogleKeep component
 
 const GoogleKeep = () => {
   return (
-    <div>
-      <h3>Google Keep</h3>
-      <div>Google Keep widget here</div>
+    <div className="widget google-keep-widget">
+      <h2>Google Keep</h2>
+      <a href="https://keep.google.com" target="_blank" rel="noopener noreferrer">
+        Open Google Keep
+      </a>
     </div>
   );
 };

@@ -144,6 +144,23 @@ button:hover {
   cursor: pointer;
 }
 
+/* App.css */
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between components */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.home-page .widget {
+  flex: 1 1 30%; /* Allow the components to grow and shrink */
+  min-width: 280px; /* Set a minimum width */
+  max-width: 600px; /* Optionally limit the maximum width */
+  box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+}
+
+
 /* Media Query for Small Screens */
 @media (max-width: 768px) {
   .content-container {
