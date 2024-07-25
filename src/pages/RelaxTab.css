@@ -14,7 +14,7 @@
   
   .spotify-container,
   .book-quote-container,
-  .fitness-reminder-container {
+  .fitness-tracker-container {
     width: 100%;
     max-width: 800px;
     margin-bottom: 20px;
@@ -34,18 +34,45 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .fitness-reminder-container {
+  .quotes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .quote-bubble {
+    background: #e0e0e0;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .recommendations-container {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recommendation {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .fitness-tracker-container {
     background: #ffffff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Media Query for Small Screens */
   @media (max-width: 768px) {
     .spotify-container,
     .book-quote-container,
-    .fitness-reminder-container {
+    .fitness-tracker-container {
       width: 100%;
       margin-bottom: 10px;
     }
