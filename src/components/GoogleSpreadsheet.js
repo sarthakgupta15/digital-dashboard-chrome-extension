@@ -1,4 +1,5 @@
 import React from 'react';
+import './GoogleSpreadsheet.css'; // Import specific styles for GoogleSpreadsheet component
 
 const GoogleSpreadsheet = ({ embedUrl }) => {
   return (

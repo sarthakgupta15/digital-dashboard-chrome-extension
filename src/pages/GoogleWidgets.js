@@ -13,8 +13,11 @@ const GoogleWidgets = () => {
       <div className="widgets-container">
         <GoogleMeet />
         <GoogleKeep />
-        <GoogleSlides embedUrl="https://docs.google.com/presentation/d/e/2PACX-1vTiV4qIVyJ4Ii3E8EInJ07zF9tEM-HnUQGRRpo3iwqD8wJ1M9NntPAkBGUB9OCZPw/embed?start=false&loop=false&delayms=3000" />
-        <GoogleSpreadsheet embedUrl="https://docs.google.com/spreadsheets/d/e/2PACX-1vQo5tMvE_bFEfD9d_vw6meIwl0Ly4nh5xAnfuRzQ2HVyAL3Jeoc9psbYk21T-Pilw8k4/embed?widget=true&headers=false" />
+        <GoogleSlides 
+          embedUrl="https://docs.google.com/presentation/d/e/2PACX-1vSIur0bXtexgQIDNUMAFSYBh52_GOpeubvYcNaGT1ZkH1UehhB3WleYZcYJkNK7vR3IQfgHYEZT3--R/embed?start=false&loop=false&delayms=3000" 
+          slideUrl="https://docs.google.com/presentation/d/e/2PACX-1vSIur0bXtexgQIDNUMAFSYBh52_GOpeubvYcNaGT1ZkH1UehhB3WleYZcYJkNK7vR3IQfgHYEZT3--R/pub?start=true&loop=true&delayms=3000"
+        />
+        <GoogleSpreadsheet embedUrl="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrV84oWtCwTGucdXuGIBFau0rhPafCJBGXAOUIIkkM-dhf9ebYxT0eSSr9W3EI3hDMXLtkN1QRUzqN/pubhtml?widget=true&amp;headers=false" />
         <GoogleCalendar embedUrl="https://calendar.google.com/calendar/embed?src=en.indian%23holiday%40group.v.calendar.google.com&ctz=Asia%2FKolkata" />
       </div>
     </div>
