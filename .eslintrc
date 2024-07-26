@@ -1,0 +1,20 @@
+{
+    "env": {
+      "browser": true,
+      "webextensions": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "globals": {
+      "chrome": "readonly"
+    },
+    "rules": {
+      // Custom rules or overrides if needed
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    }
+  }
+  

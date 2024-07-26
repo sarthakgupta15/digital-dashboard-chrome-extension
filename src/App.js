@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
@@ -10,13 +9,21 @@ import ChatGPT from './pages/ChatGPT';
 import PomodoroTimer from './components/PomodoroTimer';
 import TasksToDo from './components/TasksToDo';
 import TodayILearned from './components/TodayILearned';
+import SearchBar from './components/SearchBar';  // Import the SearchBar component
 
 const App = () => {
+  const handleSearch = (query) => {
+    // Implement search functionality here
+    console.log('Search query:', query);
+    // You can redirect to a search results page or perform search logic
+  };
+
   return (
     <Router>
       <div className="App">
         <header className="App-header">
           <h1>Digital Notice Board</h1>
+          <SearchBar onSearch={handleSearch} />  {/* Add SearchBar here */}
           <nav>
             <Link to="/">Home</Link>
             <Link to="/employees-discussion">Employees Discussion</Link>

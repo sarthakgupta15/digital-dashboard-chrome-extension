@@ -1,6 +1,6 @@
 import React from 'react';
 import SpotifyPlayer from '../components/SpotifyPlayer';
-import BookQuote from '../components/BookQuote';
+//import BookQuote from '../components/BookQuote';
 import FitnessTracker from '../components/FitnessTracker';
 import './RelaxTab.css'; // Ensure this is imported
 

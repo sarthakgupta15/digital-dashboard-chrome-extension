@@ -8,6 +8,10 @@ body {
   color: #333;
 }
 
+.App {
+  overflow-x: hidden; /* Ensure no horizontal overflow */
+}
+
 .App-header {
   background-color: #6200ea;
   padding: 1rem;
@@ -144,8 +148,6 @@ button:hover {
   cursor: pointer;
 }
 
-/* App.css */
-
 .home-page {
   display: flex;
   flex-wrap: wrap;
@@ -158,6 +160,34 @@ button:hover {
   min-width: 280px; /* Set a minimum width */
   max-width: 600px; /* Optionally limit the maximum width */
   box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #6200ea;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #4500b5;
 }
 
 
